@@ -1,12 +1,12 @@
-# student-dropout-prediction
 
-# 📘 Rwanda Student Dropout Prediction
+#  Rwanda Student Dropout Prediction
 
 ---
 
-## 🧭 Sector Selection
+##  Sector Selection
 
-* **Selected Sector:** ✅ Education
+* **Selected Sector:** Education
+*  **Dataset:** Rwanda Open Data Portal / NIS
 
 ---
 
@@ -18,17 +18,9 @@ The problem being addressed is the lack of data-driven insight into what contrib
 
 ---
 
-## Dataset Identification
-
-* **Dataset Title:** Rwanda Secondary School Education Statistics
-* **Source:** Rwanda Open Data Portal / NISR
-* **Number of Rows and Columns:** \~1,000 rows × 16 columns
-* **Data Structure:** ✅ Structured (CSV)
-* **Data Status:** ✅ Clean (after preprocessing)
-
 ---
 
-## 🐍 Python Analytics Tasks
+##  Python Analytics Tasks
 
 ###  Clean the Dataset
 
@@ -142,32 +134,6 @@ plt.show()
 
 ---
 
-## 🗂️ GitHub Repository Structure
-
-```plaintext
-📁 rwanda-dropout-prediction/
-├── 📁 data/
-│   └── processed_dropout_data.csv
-├── 📁 notebooks/
-│   └── dropout_modeling.ipynb
-├── 📁 powerbi/
-│   └── dropout_dashboard.pbix
-├── 📁 presentation/
-│   └── dropout_slides.pptx
-├── README.md
-└── requirements.txt
-```
-
----
-
-## ✅ Submission Summary
-
-* 📌 Python notebook: ✔️ Cleaned and modeled data
-* 📌 Power BI dashboard: ✔️ With slicers, cards, trend charts, maps
-* 📌 GitHub repo: ✔️ With full structure and README
-* 📌 Presentation: ✔️ Summarizes findings, methodology, and recommendations
-
----
 
 ## 📈 Recommendations
 
@@ -177,7 +143,7 @@ plt.show()
 
 ---
 
-## 📍 Future Work
+##  Future Work
 
 * Add student-level datasets if accessible
 * Predict dropout using time-series models
@@ -185,13 +151,11 @@ plt.show()
 
 ---
 
-## 🙋 Contact
+## Student Information
 
 * **Student Name**: Umwali Belyse
-* **Course**: INSY 8413 | Introduction to Big Data Analytics
-* **Instructor**: Eric Maniraguha
-* **University**: AUCA, Faculty of Information Technology
+* **ID**: 27229
+
 
 ---
 
-> "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters." — Colossians 3:23
