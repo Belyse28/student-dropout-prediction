@@ -18,8 +18,6 @@ The problem being addressed is the lack of data-driven insight into what contrib
 
 ---
 
----
-
 ##  Python Analytics Tasks
 
 ### 1. Clean the Dataset
@@ -63,6 +61,7 @@ plt.xlabel('Dropout %')
 plt.ylabel('Count')
 plt.show()
 ```
+<img width="1473" height="686" alt="image" src="https://github.com/user-attachments/assets/14aa26b0-443f-4122-9631-378360cae9fa" />
 
  A visual inspection shows dropout rates are generally skewed toward lower percentages but with notable spikes in some districts.
 
