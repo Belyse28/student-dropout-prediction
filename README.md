@@ -22,7 +22,7 @@ The problem being addressed is the lack of data-driven insight into what contrib
 
 ##  Python Analytics Tasks
 
-###  Clean the Dataset
+### 1. Clean the Dataset
 
 ```python
 import pandas as pd
@@ -50,7 +50,7 @@ df = df.dropna(subset=['Overall_Dropout_Percentage', 'Year'])
 
 ---
 
-### 2️⃣ Exploratory Data Analysis (EDA)
+### 2️. Exploratory Data Analysis (EDA)
 
 ```python
 import matplotlib.pyplot as plt
@@ -63,11 +63,11 @@ plt.ylabel('Count')
 plt.show()
 ```
 
-🔍 A visual inspection shows dropout rates are generally skewed toward lower percentages but with notable spikes in some districts.
+ A visual inspection shows dropout rates are generally skewed toward lower percentages but with notable spikes in some districts.
 
 ---
 
-### 3️⃣ Machine Learning Model (Random Forest)
+### 3️. Machine Learning Model (Random Forest)
 
 ```python
 from sklearn.ensemble import RandomForestClassifier
@@ -92,11 +92,11 @@ y_pred = model.predict(X_test)
 print(classification_report(y_test, y_pred))
 ```
 
-✅ The classifier gave accurate predictions for dropout level using key numeric indicators.
+ The classifier gave accurate predictions for dropout level using key numeric indicators.
 
 ---
 
-### 4️⃣ Innovation: Feature Importance
+### 4️. Innovation: Feature Importance
 
 ```python
 import numpy as np
