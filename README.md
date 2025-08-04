@@ -125,6 +125,10 @@ plt.show()
 3. **Stacked Bar Chart**: Dropout Levels per Province
 4. **Filled Map**: Dropout Rates by District (using Province as Location)
 5. **Slicers**: Year, Province, School (Horizontal format)
+   
+
+<img width="447" height="254" alt="Dashboard" src="https://github.com/user-attachments/assets/9938a196-9c06-4285-babb-6f65f2bc8866" />
+
 
 ### Features:
 
