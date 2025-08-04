@@ -20,7 +20,7 @@ The problem being addressed is the lack of data-driven insight into what contrib
 
 ##  Python Analytics Tasks
 
-### 1. Clean the Dataset
+### 1. load the Dataset
 
 ```python
 # Import necessary libraries
