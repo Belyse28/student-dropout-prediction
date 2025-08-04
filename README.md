@@ -1,5 +1,5 @@
 
-#  Rwanda Student Dropout Prediction
+# Predicting and Understanding Student Dropout Patterns in Secondary Schools
 
 ---
 
