@@ -25,26 +25,27 @@ The problem being addressed is the lack of data-driven insight into what contrib
 ### 1. Clean the Dataset
 
 ```python
+# Import necessary libraries
 import pandas as pd
-import numpy as np
 
-# Load CSV
-df = pd.read_csv("processed_dropout_data.csv")
+# Load the dataset
+df = pd.read_csv("dropout_data.csv")  # Replace with your file name if different
 
-# Convert ratio to float for modeling
-def convert_ratio(ratio):
-    try:
-        a, b = map(float, ratio.split(':'))
-        return a / b
-    except:
-        return np.nan
+# Display the first few rows
+print("🔹 Preview of the dataset:")
+display(df.head())
 
-# Apply conversion to teacher-student ratio
-df['TS_Ratio_Numeric'] = df['Teacher_Student_Ratio'].apply(convert_ratio)
+# Display dataset shape
+print(f"\n🔹 Dataset shape: {df.shape[0]} rows and {df.shape[1]} columns")
 
-# Drop missing important values
-df = df.dropna(subset=['Overall_Dropout_Percentage', 'Year'])
+# Show column names and data types
+print("\n🔹 Column data types:")
+print(df.dtypes)
+
 ```
+
+<img width="626" height="667" alt="image" src="https://github.com/user-attachments/assets/9ef7b37e-633c-411f-a67a-8e82d7227618" />
+
 
 ✅ This step ensures that all features required for modeling and visualization are in numeric format and that missing values are addressed.
 
