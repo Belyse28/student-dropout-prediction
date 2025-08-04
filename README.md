@@ -6,7 +6,7 @@
 ##  Sector Selection
 
 * **Selected Sector:** Education
-*  **Dataset:** (https://www.statistics.gov.rw/statistical-publications/statistical-yearbook/rwanda-statistical-yearbook-2024)
+*  **Dataset source:** (https://www.statistics.gov.rw/statistical-publications/statistical-yearbook/rwanda-statistical-yearbook-2024)
 
 ---
 
